@@ -1,0 +1,26 @@
+PATIENT ELECTRONIC MEDICAL RECORD & PRIOR AUTHORIZATION REQUEST
+PATIENT NAME: Michael Brown
+DOB: 1968-02-14 | MRN: #UM-31802
+REQUESTING PROVIDER: Dr. Marcus Sterling, MD (Neurosurgery)
+CLINIC: Tri-County Neurological Specialists
+DATE OF SERVICE REQUEST: 2026-10-22
+
+REQUESTED PROCEDURE:
+CPT 22612 - Arthrodesis, posterior technique, lumbar
+PRIMARY DIAGNOSIS:
+ICD-10 M54.50 - Low back pain, unspecified
+
+CLINICAL SUMMARY:
+The patient is a 58-year-old male with chief complaint of lower back pain lasting approximately 7 months. NPRS score today is 7/10. Pain is aching in nature across the lumbosacral junction without clear lower extremity radiation. Deep tendon reflexes intact. Motor strength 5/5 in bilateral lower extremities.
+
+TREATMENT HISTORY:
+- Medications: Patient takes over-the-counter Ibuprofen 400 mg as needed with temporary relief. No prescription muscle relaxants, oral steroids, or gabapentinoids documented.
+- Physical Therapy: Physician note from 2026-06-12 states: "Recommend outpatient physical therapy for 6 weeks." However, no physical therapy treatment notes, attendance logs, or formal PT discharge summaries are present in the submitted chart. Patient states he did "a few home stretches".
+
+DIAGNOSTIC WORKUP:
+- Lumbar MRI (Date: 2026-08-10): Shows mild L5-S1 disc desiccation and mild degenerative facet changes. No spondylolisthesis. No severe central canal stenosis.
+- Dynamic Radiographs: Flexion and extension lateral radiographs were NOT performed.
+
+PROVIDER NOTE:
+Patient requests surgical consultation for persistent back pain. Requesting approval for single-level lumbar arthrodesis.
+Signed: Dr. Marcus Sterling, MD

@@ -1,0 +1,25 @@
+{
+  "name": "PriorAuth AI - Clinical UM Copilot",
+  "short_name": "PriorAuth AI",
+  "description": "Intelligent Healthcare Prior Authorization & Utilization Management (UM) Decision Copilot",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B132B",
+  "theme_color": "#1D4ED8",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["medical", "health", "productivity", "utilities"]
+}

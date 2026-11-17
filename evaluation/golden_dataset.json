@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "CASE-PA-001",
+    "patient_name": "Johnathan Doe",
+    "chart_file": "data/synthetic_charts/Chart_001_John_Doe_Approved_Lumbar_Fusion.txt",
+    "requested_procedure": "CPT 22612 - Lumbar Arthrodesis",
+    "primary_diagnosis": "ICD-10 M43.16 - Spondylolisthesis, lumbar region",
+    "query": "Prior authorization request for CPT 22612 lumbar spinal fusion arthrodesis for unremitting back pain and spondylolisthesis",
+    "expected_determination": "APPROVED",
+    "expected_policy_id": "LCD-L35452",
+    "expected_citations": [
+      "LCD-L35452 Section 2.1: Chronicity and Functional Impairment",
+      "LCD-L35452 Section 2.2: Mandatory Conservative Therapy Trial",
+      "LCD-L35452 Section 2.3: Objective Imaging Correlation"
+    ],
+    "ground_truth_quotes": [
+      "Attended 14 formal outpatient physical therapy sessions at Metro Rehab Services between March 4, 2026 and May 2, 2026",
+      "Demonstrates Grade II anterolisthesis of L4 on L5 with 6.2 mm displacement",
+      "Confirms dynamic lumbar instability at L4-L5 with 5.1 mm translational movement"
+    ]
+  },
+  {
+    "case_id": "CASE-PA-002",
+    "patient_name": "Sarah Smith",
+    "chart_file": "data/synthetic_charts/Chart_002_Sarah_Smith_Denied_Anti_TNF.txt",
+    "requested_procedure": "HCPCS J0135 - Adalimumab (Humira)",
+    "primary_diagnosis": "ICD-10 M05.79 - Rheumatoid arthritis",
+    "query": "Prior authorization request for HCPCS J0135 Adalimumab Humira for rheumatoid arthritis active synovitis",
+    "expected_determination": "DENIED",
+    "expected_policy_id": "CPB-0315",
+    "expected_citations": [
+      "CPB-0315 Section 2.4: Contraindications and Exclusions",
+      "CPB-0315 Section 2.3: Mandatory Infectious Screening & Safety Clearances"
+    ],
+    "ground_truth_quotes": [
+      "NYHA Class III Congestive Heart Failure. Most recent echocardiogram on 2026-08-14 reveals left ventricular ejection fraction (LVEF) of 28%",
+      "QuantiFERON-TB Gold returned positive on 2026-09-15. Note: Patient has NOT yet initiated or completed latent TB antimicrobial chemoprophylaxis"
+    ]
+  },
+  {
+    "case_id": "CASE-PA-003",
+    "patient_name": "Michael Brown",
+    "chart_file": "data/synthetic_charts/Chart_003_Michael_Brown_Pend_Lumbar_Fusion.txt",
+    "requested_procedure": "CPT 22612 - Lumbar Arthrodesis",
+    "primary_diagnosis": "ICD-10 M54.50 - Low back pain",
+    "query": "Prior authorization request for CPT 22612 lumbar fusion for low back pain",
+    "expected_determination": "PEND FOR RECORDS",
+    "expected_policy_id": "LCD-L35452",
+    "expected_citations": [
+      "LCD-L35452 Section 2.2: Mandatory Conservative Therapy Trial",
+      "LCD-L35452 Section 2.3: Objective Imaging Correlation"
+    ],
+    "ground_truth_quotes": [
+      "No physical therapy treatment notes, attendance logs, or formal PT discharge summaries are present in the submitted chart.",
+      "Dynamic Radiographs: Flexion and extension lateral radiographs were NOT performed."
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E3A8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad)"/>
+  <!-- Caduceus / Medical Cross Shield -->
+  <path d="M256 80 L380 130 L380 260 C380 345 325 415 256 440 C187 415 132 345 132 260 L132 130 Z" fill="#FFFFFF" fill-opacity="0.12" stroke="#60A5FA" stroke-width="12"/>
+  <!-- Medical Plus -->
+  <rect x="226" y="180" width="60" height="150" rx="12" fill="#FFFFFF"/>
+  <rect x="180" y="226" width="150" height="60" rx="12" fill="#FFFFFF"/>
+  <!-- Glowing AI Node -->
+  <circle cx="340" cy="180" r="16" fill="#38BDF8"/>
+  <line x1="286" y1="226" x2="340" y2="180" stroke="#38BDF8" stroke-width="6" stroke-dasharray="6,6"/>
+</svg>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PriorAuth AI — Clinical UM RAG Copilot</title>
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#1D4ED8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PriorAuth AI">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+  <link rel="icon" type="image/png" href="/icons/icon-192.png">
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header>
+    <div class="logo-area">
+      <div class="logo-icon">🏥</div>
+      <div>
+        <div class="header-title">PriorAuth AI Copilot</div>
+        <div class="header-subtitle">Utilization Management (UM) Decision Engine • Standalone PWA</div>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <button id="installBtn" class="btn btn-install">📲 Install App</button>
+      <button id="settingsBtn" class="btn btn-secondary" title="Configure Cloud API Backend">⚙️ Cloud API</button>
+    </div>
+  </header>
+
+  <!-- Main Grid Layout -->
+  <main class="container">
+    
+    <!-- Left Column: Input Patient EMR -->
+    <section class="panel">
+      <div class="panel-header">
+        <h2 class="panel-title">📋 1. Prior Authorization Request</h2>
+        <span id="engineBadge" style="font-size: 0.75rem; background: #1e3a8a; color: #93c5fd; padding: 2px 8px; border-radius: 12px;">Mode: In-Browser Standalone</span>
+      </div>
+
+      <div class="form-group">
+        <label for="scenarioSelect">Select Clinical Benchmark Case:</label>
+        <select id="scenarioSelect">
+          <option value="case1">Case 1: Lumbar Spinal Fusion (Approved) — Johnathan Doe</option>
+          <option value="case2">Case 2: Anti-TNF Biologic Adalimumab (Denied) — Sarah Smith</option>
+          <option value="case3">Case 3: Lumbar Fusion Missing Data (Pend) — Michael Brown</option>
+          <option value="custom">Custom Patient Chart...</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="chartInput">Patient Clinical Chart Notes (EMR):</label>
+        <textarea id="chartInput" placeholder="Paste patient clinical chart notes here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="queryHint">Target Procedure / Diagnostic Codes (Optional):</label>
+        <input type="text" id="queryHint" placeholder="e.g. CPT 22612 lumbar spinal fusion or HCPCS J0135 Adalimumab">
+      </div>
+
+      <div class="engine-toggle">
+        <div>
+          <strong>Run Engine:</strong>
+          <div style="font-size: 0.75rem; color: var(--text-muted);" id="engineHelp">Evaluates locally in-browser with zero backend requirement.</div>
+        </div>
+        <select id="engineSelect" style="width: auto;">
+          <option value="local">Client-Side Engine (Offline 24/7)</option>
+          <option value="cloud">Cloud FastAPI Backend</option>
+        </select>
+      </div>
+
+      <button id="evaluateBtn" class="btn" style="width: 100%; justify-content: center; padding: 0.8rem; font-size: 1rem;">
+        🚀 Evaluate Prior Authorization
+      </button>
+    </section>
+
+    <!-- Right Column: Audit Determination Report -->
+    <section class="panel">
+      <div class="panel-header">
+        <h2 class="panel-title">⚖️ 2. Audit-Proof Clinical Determination</h2>
+        <span id="evalTimestamp" style="font-size: 0.75rem; color: var(--text-muted);">Ready</span>
+      </div>
+
+      <div id="decisionCard" class="decision-card">
+        <div class="badge-wrapper">
+          <div id="statusBadge" class="status-badge badge-APPROVED">🟢 APPROVED</div>
+          <div id="confidenceText" class="confidence-meter">Confidence: 96.0%</div>
+        </div>
+
+        <div id="patientMeta" style="font-size: 0.85rem; color: #cbd5e1;">
+          Patient: <strong>Johnathan Doe</strong> | Procedure: <strong>CPT 22612 Arthrodesis</strong>
+        </div>
+
+        <div id="summaryRationale" class="summary-box">
+          Click <strong>"Evaluate Prior Authorization"</strong> to run hybrid policy retrieval and clinical grounding verification.
+        </div>
+
+        <!-- Missing Information Alert -->
+        <div id="missingAlert" class="alert-missing" style="display: none;">
+          <strong>⚠️ Missing Documents Required:</strong>
+          <ul id="missingList" style="margin-left: 1.25rem; margin-top: 0.3rem;"></ul>
+        </div>
+
+        <!-- Criteria Checklist -->
+        <div class="checklist-title">📋 Policy Criteria Verification Checklist</div>
+        <div id="criteriaList">
+          <!-- Dynamically populated checklist cards -->
+        </div>
+
+        <!-- Retrieved Policy Citations -->
+        <div class="checklist-title" style="margin-top: 0.75rem;">📚 Retrieved Policy Criteria Clauses</div>
+        <div id="retrievedList" style="font-size: 0.8rem; color: #94a3b8;">
+          <!-- Dynamically populated citations -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-bar">
+    PriorAuth AI • Enterprise Clinical UM Evaluation RAG • Standalone PWA Architecture (Runs 24/7 on Cloud or In-Browser)
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+PATIENT ELECTRONIC MEDICAL RECORD & PRIOR AUTHORIZATION REQUEST
+PATIENT NAME: Johnathan Doe
+DOB: 1974-05-12 | MRN: #UM-90218
+REQUESTING PROVIDER: Dr. Robert Vance, MD (Orthopedic Spine Surgery)
+FACILITY: Metro Spine & Orthopedic Institute
+DATE OF SERVICE REQUEST: 2026-10-15
+
+REQUESTED PROCEDURE:
+CPT 22612 - Arthrodesis, posterior or posterolateral technique, single level; lumbar
+CPT 63047 - Laminectomy, facetectomy and foraminotomy (decompression)
+PRIMARY DIAGNOSIS:
+ICD-10 M43.16 - Spondylolisthesis, lumbar region (L4-L5)
+ICD-10 M54.50 - Low back pain, unspecified
+
+CLINICAL HISTORY & PHYSICAL EXAM:
+The patient is a 52-year-old male presenting with unremitting lower back pain and right lower extremity radiculopathy in the L5 dermatomal distribution persisting for 9 consecutive months (onset January 2026). The patient describes sharp, burning pain radiating to the right lateral calf and foot, exacerbated by walking > 50 feet. 
+Current Numeric Pain Rating Scale (NPRS) is 8/10. Oswestry Disability Index (ODI) is 48%, reflecting severe functional impairment in Activities of Daily Living (inability to stand for cooking, unable to perform occupational duties as warehouse supervisor).
+
+PRIOR CONSERVATIVE THERAPY RECORD:
+1. Physical Therapy: Attended 14 formal outpatient physical therapy sessions at Metro Rehab Services between March 4, 2026 and May 2, 2026 (supervised by Mark Stevens, DPT). Modalities included core stabilization, lumbar traction, and flexion exercises. Minimal lasting pain relief (< 15% reduction).
+2. Pharmacotherapy: 
+   - Trial of Meloxicam 15 mg daily for 8 weeks (March - April 2026) discontinued due to lack of efficacy.
+   - Trial of Gabapentin titrated to 600 mg TID for 10 weeks (May - July 2026) with persistent radicular symptoms.
+3. Activity modification and documented daily home exercise program performed consistently without sustained resolution of pain.
+
+DIAGNOSTIC IMAGING SUMMARY:
+- Lumbar Spine MRI (Date: 2026-09-02): Demonstrates Grade II anterolisthesis of L4 on L5 with 6.2 mm displacement. Severe bilateral facet arthropathy and ligamentum flavum hypertrophy resulting in severe central spinal canal stenosis (AP diameter 6.1 mm) and right L5 exiting nerve root impingement.
+- Flexion/Extension Lateral Lumbar Radiographs (Date: 2026-09-10): Confirms dynamic lumbar instability at L4-L5 with 5.1 mm translational movement on flexion/extension and 12 degrees angular motion.
+
+SURGICAL CLEARANCE & EXCLUSIONS:
+- BMI: 28.4 kg/m2 (Height: 5'10", Weight: 198 lbs).
+- Absence of active systemic infection; complete blood count and ESR/CRP within normal limits.
+- No history of substance abuse or untreated psychiatric illness.
+- Preoperative medical clearance obtained from primary care physician Dr. A. Clark on 2026-10-01.
+
+PROVIDER ATTESTATION:
+I certify that Johnathan Doe has failed exhaustive conservative medical management and meets surgical criteria for single-level lumbar arthrodesis and decompression.
+Signed: Dr. Robert Vance, MD

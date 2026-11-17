@@ -1,0 +1,32 @@
+PATIENT ELECTRONIC MEDICAL RECORD & PRIOR AUTHORIZATION REQUEST
+PATIENT NAME: Sarah Smith
+DOB: 1982-11-20 | MRN: #UM-44910
+REQUESTING PROVIDER: Dr. Patricia Lee, MD (Rheumatology)
+CLINIC: Arthritis & Autoimmune Care Partners
+DATE OF SERVICE REQUEST: 2026-10-18
+
+REQUESTED MEDICATION:
+HCPCS J0135 - Injection, adalimumab, 20 mg (Prescribed: 40 mg subcutaneous every 14 days)
+CPT 96372 - Therapeutic, prophylactic, or diagnostic injection; subcutaneous or intramuscular
+PRIMARY DIAGNOSIS:
+ICD-10 M05.79 - Rheumatoid arthritis with rheumatoid factor of multiple sites without organ or systems involvement
+
+CLINICAL HISTORY & DISEASE ACTIVITY:
+Patient is a 43-year-old female with long-standing seropositive rheumatoid arthritis diagnosed in 2021. Currently presenting with active polyarticular inflammatory disease involving bilateral wrists, 2nd and 3rd MCP joints, and bilateral PIP joints (8 swollen and tender joints).
+Laboratory evaluation on 2026-10-05:
+- ESR: 44 mm/hr (Elevated, baseline reference < 20)
+- CRP: 2.4 mg/dL (Elevated, baseline reference < 0.5)
+- CDAI score: 24.5 (High disease activity)
+
+CONVENTIONAL DMARD HISTORY:
+- Methotrexate: Initiated at 15 mg weekly in October 2023, titrated to 25 mg weekly. Discontinued after 7 months due to persistent severe nausea, stomatitis, and elevated transaminases (ALT 92 U/L).
+- Leflunomide: Started at 20 mg daily in June 2024; taken for 5 months with inadequate therapeutic response (persistent synovitis).
+
+MANDATORY SAFETY SCREENING & CONTRAINDICATION EVALUATION:
+- Infectious Screening: QuantiFERON-TB Gold returned positive on 2026-09-15. Note: Patient has NOT yet initiated or completed latent TB antimicrobial chemoprophylaxis (Isoniazid or Rifampin) due to patient scheduling conflict.
+- Hepatitis B/C serologies negative.
+- CARDIOLOGY COMORBIDITY: Patient has a history of non-ischemic cardiomyopathy with NYHA Class III Congestive Heart Failure. Most recent echocardiogram on 2026-08-14 reveals left ventricular ejection fraction (LVEF) of 28% with severe global hypokinesis and exertional dyspnea on minimal exertion (walking to mailbox).
+
+PROVIDER NOTE:
+Requesting authorization for Adalimumab (Humira) 40mg bi-weekly to control refractory RA synovitis.
+Signed: Dr. Patricia Lee, MD
