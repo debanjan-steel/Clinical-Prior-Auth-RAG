@@ -1,8 +1,8 @@
 # Project Planner: Intelligent Prior Authorization & UM RAG Evaluator
 
+> **Live Production PWA**: [https://clinical-prior-auth-rag-pwa.vercel.app/](https://clinical-prior-auth-rag-pwa.vercel.app/)  
 > **Target Organization**: Sagility — Clinical Utilization Management (UM) / Care Management (CM)  
 > **System Architecture**: Hierarchical Chunking + Hybrid Retrieval (Dense BGE + Sparse BM25 via RRF) + Cross-Encoder Re-Ranking + Strict Citation Grounding + Ragas Benchmark  
-> **Last Dynamically Synchronized**: 2026-11-17 16:40:52
 > **Overall Project Completion**: 100% (Production Ready)
 
 ---
@@ -147,7 +147,7 @@ flowchart TD
 | `evaluation/golden_dataset.json` | 58 | 2026-11-17 16:26 | ✅ Active |
 | `tests/test_retrieval.py` | 47 | 2026-11-17 16:24 | ✅ Active |
 | `scripts/update_planner.py` | 145 | 2026-11-17 16:40 | ✅ Active |
-| **Total Tracked Codebase** | **2811 lines** | **2026-11-17 16:40:52** | **✅ Verified** |
+| **Total Tracked Codebase** | **2811 lines** | **2026-11-17 16:55:56** | **✅ Verified** |
 
 ## 6. How This Planner Stays Dynamic
 

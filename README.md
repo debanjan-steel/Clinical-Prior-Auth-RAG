@@ -1,8 +1,9 @@
 # Intelligent Prior Authorization & Utilization Management (UM) RAG Evaluator
 
+> **Live Production PWA**: [https://clinical-prior-auth-rag-pwa.vercel.app/](https://clinical-prior-auth-rag-pwa.vercel.app/)  
 > **Target Role**: Generative AI Data Scientist at Sagility  
 > **Sagility Business Alignment**: Clinical UM/CM (Utilization Management / Care Management) Practice & Payer Operations  
-> **Tech Stack**: Python 3.13, FastEmbed / BGE Embeddings, Qdrant Vector DB, BM25 Lexical Index, Cross-Encoder Re-ranker, FastAPI, Streamlit, Docker
+> **Tech Stack**: Python 3.13, FastEmbed / BGE Embeddings, Qdrant Vector DB, BM25 Lexical Index, Cross-Encoder Re-ranker, FastAPI, Streamlit, PWA, Docker
 
 ---
 
